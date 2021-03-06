@@ -1,7 +1,9 @@
+const fs = require('fs');
 const path = require('path');
 const router = require('express').Router();
 
-const db = require(path.join(__dirname, '..', 'db', 'db.json'))
+const dbPath = path.join(__dirname, '..', 'db', 'db.json')
+const db = require(dbPath)
 
 
 router.get('/notes', (req, res) => res.json(db));
@@ -14,6 +16,7 @@ router.post('/notes', (req, res) => {
         "text": req.body.text,
     }
     db.push(add);
+    fs.writeFileSync(dbPath, db);
     res.json(db);
 })
 
