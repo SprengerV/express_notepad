@@ -9,9 +9,8 @@ const PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
-
-apiRoutes(app);
-htmlRoutes(app);
+app.use('/', htmlRoutes);
+app.use('/api', apiRoutes);
 
 app.listen(PORT, () => {
     console.log(`App listening on PORT: ${PORT}`);
