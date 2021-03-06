@@ -64,7 +64,7 @@ This app is used for taking notes. It would work well in a web portal for any de
 <!-- TESTING -->
 ## Testing
 
-Check out the deployed app [here](https://tehexpressnotepadz.herokuapp.com/)
+Check out the deployed app [here](https://tehexpressnotepadz.herokuapp.com/). See if you can break it, and report back to the issues section of the repository.
 
 
 
