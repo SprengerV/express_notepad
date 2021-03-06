@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Express Notepad</h3>
+  <h2 align="center">Express Notepad</h2>
 </p>
 
 
@@ -32,12 +32,14 @@
 
 This is a server dependent web UI for taking notes.
 
-
+The deployed version can be found at the following address:
+[https://tehexpressnotepadz.herokuapp.com/](https://tehexpressnotepadz.herokuapp.com/)
 
 ### Built With
 
 <ul>
 	<li>NodeJS</li>
+  <li>Heroku</li>
 </ul>
 
 
@@ -62,7 +64,7 @@ This app is used for taking notes. It would work well in a web portal for any de
 <!-- TESTING -->
 ## Testing
 
-Check out the deployed app at 
+Check out the deployed app [here](https://tehexpressnotepadz.herokuapp.com/)
 
 
 
@@ -85,6 +87,7 @@ Contributions are what make the open source community such an amazing place to b
 Brendan Francis - [B.Francis@SprengerV.com](email:B.Francis@SprengerV.com)
 
 Project Link: [https://www.github.com/SprengerV/express_notepad/](https://www.github.com/SprengerV/express_notepad/)
+
 
 
 
